@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Designer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-900">John Doe</a>
+            <nav class="hidden md:flex space-x-8 text-gray-600">
+                <a href="#about" class="hover:text-gray-900 transition duration-300">About</a>
+                <a href="#portfolio" class="hover:text-gray-900 transition duration-300">Portfolio</a>
+                <a href="#contact" class="hover:text-gray-900 transition duration-300">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="py-20 md:py-32 text-center bg-white">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 mb-4">
+                    Industrial Designer
+                </h1>
+                <p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+                    Crafting innovative and user-centric physical products through thoughtful design and meticulous engineering.
+                </p>
+                <a href="#portfolio" class="bg-gray-900 text-white px-8 py-3 rounded-full hover:bg-gray-700 transition duration-300 font-semibold shadow-lg">
+                    View My Work
+                </a>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-16 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">About Me</h2>
+                <div class="md:flex md:space-x-12 items-center">
+                    <div class="flex-shrink-0 mb-6 md:mb-0">
+                        <img src="https://placehold.co/250x250/E5E7EB/4B5563?text=Profile+Photo" alt="Profile Photo of John Doe" class="rounded-full w-40 h-40 md:w-56 md:h-56 mx-auto shadow-lg object-cover">
+                    </div>
+                    <div class="flex-grow text-gray-700 leading-relaxed">
+                        <p class="mb-4">
+                            Hello! I'm John Doe, an industrial designer with a passion for creating beautiful and functional hardware products. My design philosophy is rooted in a deep understanding of human behavior and a commitment to sustainable, elegant solutions. I thrive on the challenge of transforming complex problems into simple, intuitive products that enhance everyday life.
+                        </p>
+                        <p>
+                            Over the past 5 years, I've worked on a diverse range of projects, from consumer electronics to medical devices, gaining expertise in prototyping, 3D modeling, and design for manufacturing. I believe that great design is a conversation between form and function, and I strive to make every product I touch a testament to that dialogue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 max-w-6xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">My Portfolio</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-gray-100 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <img src="https://placehold.co/600x400/D1D5DB/4B5563?text=Project+1+Image" alt="Image of Project 1" class="w-full h-48 object-cover rounded-t-2xl">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Smart Home Hub</h3>
+                            <p class="text-sm text-gray-600 mb-4">
+                                A minimalist, voice-activated smart home controller with a focus on seamless integration and privacy.
+                            </p>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="bg-gray-100 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <img src="https://placehold.co/600x400/D1D5DB/4B5563?text=Project+2+Image" alt="Image of Project 2" class="w-full h-48 object-cover rounded-t-2xl">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Ergonomic Mouse</h3>
+                            <p class="text-sm text-gray-600 mb-4">
+                                A custom-molded, ergonomic computer mouse designed to reduce wrist strain for long-term use.
+                            </p>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="bg-gray-100 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <img src="https://placehold.co/600x400/D1D5DB/4B5563?text=Project+3+Image" alt="Image of Project 3" class="w-full h-48 object-cover rounded-t-2xl">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Portable Speaker</h3>
+                            <p class="text-sm text-gray-600 mb-4">
+                                A rugged, waterproof portable speaker with a durable, recycled plastic enclosure.
+                            </p>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="bg-gray-100 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <img src="https://placehold.co/600x400/D1D5DB/4B5563?text=Project+4+Image" alt="Image of Project 4" class="w-full h-48 object-cover rounded-t-2xl">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Smart Water Bottle</h3>
+                            <p class="text-sm text-gray-600 mb-4">
+                                A smart water bottle that tracks hydration levels and lights up to remind users to drink.
+                            </p>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                     <!-- Project 5 -->
+                     <div class="bg-gray-100 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <img src="https://placehold.co/600x400/D1D5DB/4B5563?text=Project+5+Image" alt="Image of Project 5" class="w-full h-48 object-cover rounded-t-2xl">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Robotics Arm</h3>
+                            <p class="text-sm text-gray-600 mb-4">
+                                A compact, modular robotics arm for educational purposes and small-scale prototyping.
+                            </p>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                     <!-- Project 6 -->
+                     <div class="bg-gray-100 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                        <img src="https://placehold.co/600x400/D1D5DB/4B5563?text=Project+6+Image" alt="Image of Project 6" class="w-full h-48 object-cover rounded-t-2xl">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2">Modular Furniture</h3>
+                            <p class="text-sm text-gray-600 mb-4">
+                                A series of modular furniture components that can be reconfigured to suit various living spaces.
+                            </p>
+                            <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm">View Case Study &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 md:py-24 bg-gray-50">
+            <div class="container mx-auto px-6 max-w-2xl text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Let's Connect</h2>
+                <p class="text-gray-700 mb-8">
+                    I'm always open to new collaborations and exciting projects. Feel free to reach out and say hello!
+                </p>
+                <form class="space-y-4">
+                    <input type="text" placeholder="Your Name" class="w-full p-4 rounded-xl border-2 border-gray-300 focus:outline-none focus:border-gray-500 transition duration-300">
+                    <input type="email" placeholder="Your Email" class="w-full p-4 rounded-xl border-2 border-gray-300 focus:outline-none focus:border-gray-500 transition duration-300">
+                    <textarea placeholder="Your Message" rows="6" class="w-full p-4 rounded-xl border-2 border-300 focus:outline-none focus:border-gray-500 transition duration-300"></textarea>
+                    <button type="submit" class="w-full bg-gray-900 text-white p-4 rounded-xl hover:bg-gray-700 transition duration-300 font-semibold shadow-md">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
